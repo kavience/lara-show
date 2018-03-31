@@ -4,17 +4,19 @@ a simple project like https://www.jianshu.com/ based on laravel 5.5。(基于lar
 根据视频http://coding.imooc.com/class/111.html 做好的一个项目
 
 安装教程
-1. 首先git clone  https://github.com/kavience/lara-show.git 到网站目录
+1. 首先git clone  https://github.com/kavience/lara-show.git 到网站目录  ；
 
-2. 执行composer install（composer的安装使用请参考http://docs.phpcomposer.com/00-intro.html）
+2. 执行composer install（composer的安装使用请参考http://docs.phpcomposer.com/00-intro.html）  ；
 
-3. 给予storage 和 bootstrap/cache 权限（根据不同的系统修改文件所有者为Apache或者nginx用户，或者直接给个777权限也没关系），chmod 777 -R storage bootstrap/cache
+3. 给予storage 和 bootstrap/cache 权限（根据不同的系统修改文件所有者为Apache或者nginx用户，或者直接给个777权限也没关系），chmod 777 -R storage bootstrap/cache  ；
 
-4.配置网站根目录为 lara-show/public 目录下
+4.配置网站根目录为 lara-show/public 目录下  ；
 
-5.安装数据库和填充数据： php artisan migrate --seed
+5.配置.env文件，cp .env.example .env ，然后编辑.env文件，将数据库信息改为自己的数据库的信息，再关闭调试模式  ；
 
-6.打开网站即可访问。效果参考网站: http://lara-show.kavience.com/
+6.安装数据库和填充数据： php artisan migrate --seed  ；
+
+7.打开网站即可访问。效果参考网站: http://lara-show.kavience.com/  ；
 
 项目总结点 ：
 1.全局scope的方式；
