@@ -4,7 +4,7 @@
 ### a simple project like https://www.jianshu.com/ based on laravel 5.5。
 ### 基于laravel5.5，创建的一个简单的简书网的项目。
 
-### 本程序根据[视频](http://coding.imooc.com/class/111.html) 做好的一个项目，感谢慕课网 [轩脉刃](http://www.imooc.com/t/4819931) 老师精心录制的视频。
+### 本程序根据[慕课网视频](http://coding.imooc.com/class/111.html) 做好的一个项目，感谢慕课网 [轩脉刃](http://www.imooc.com/t/4819931) 老师精心录制的视频。
 
 ### 具有的功能如下：<br>
 #### 前台：登录、注册、发布文章、投稿、关注、点赞、评论等等。
@@ -62,11 +62,11 @@ php artisan migrate --seed  ；
 #### 6.路由resource对应的8个操作方法
 
 #### 7.laravel中的队列
-　　##### 1.驱动（"sync", "database", "beanstalkd", "sqs", "redis", "null"）
-　　##### 2.定义任务
-　　##### 3.分发任务
-　　##### 4.启动队列
-　　##### 5.系统通知队列的实际实现
+　　 1.驱动（"sync", "database", "beanstalkd", "sqs", "redis", "null"）<br>
+　　 2.定义任务<br>
+　　 3.分发任务<br>
+　　 4.启动队列<br>
+　　 5.系统通知队列的实际实现<br>
 
 #### 8.模型之间个各个管理(一对多，多对一，多对多等等)
 
